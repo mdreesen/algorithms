@@ -10,13 +10,13 @@
 // }
 
 // Incrementing for loop
-// function reversal(str) {
-//     let revString = '';
-//     for(let i = 0; i <= str.length - 1; i++) {
-//         console.log(revString = str[i] + revString)
-//     }
-//     console.log(revString)
-// }
+function reversal(str) {
+    let revString = '';
+    for(let i = 0; i <= str.length - 1; i++) {
+        console.log(revString = str[i] + revString)
+    }
+    console.log(revString)
+}
 
 // Using forOf loop
 // function reversal(str) {
@@ -26,5 +26,7 @@
 //     }
 //     console.log(revString)
 // }
+
+
 
 reversal('hello world')
