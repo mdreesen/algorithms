@@ -12,3 +12,16 @@ function sum(arr) {
     console.log(total)
 }
 sum([8, 3, 9, 4])
+
+/*
+
+function sum(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        return total += arr[i]
+    }
+    return total
+}
+sum([8, 3, 9, 4])
+
+*/
